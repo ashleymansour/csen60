@@ -17,3 +17,12 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
+button {
+  padding: 0.5rem 1rem; 
+  color: #3c4043;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  cursor: pointer;
+}
