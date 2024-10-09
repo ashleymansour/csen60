@@ -13,7 +13,7 @@ ul {
     gap: 16px;
 }
 
-header {
+header, footer {
     display: flex;
     justify-content: space-between;
 }
@@ -25,4 +25,10 @@ button {
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
   cursor: pointer;
+}
+
+#climate-message{
+    display: flex;
+    gap: 75px;
+    align-items: center;
 }
