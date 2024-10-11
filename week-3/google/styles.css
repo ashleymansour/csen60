@@ -13,10 +13,11 @@ ul {
     gap: 16px;
 }
 
-header, footer {
+header,footer {
     display: flex;
     justify-content: space-between;
 }
+
 
 button {
   padding: 0.5rem 1rem; 
