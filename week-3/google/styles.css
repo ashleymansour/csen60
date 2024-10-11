@@ -15,7 +15,6 @@ ul {
 
 header, footer {
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
@@ -26,6 +25,17 @@ button {
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
   cursor: pointer;
+}
+main{
+    align-self: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
 }
 
 #climate-message{
