@@ -60,6 +60,10 @@ article {
     flex-direction: column;
 }
 
+article h1{
+    color: var(--accent-background-text);
+}
+
 article p{
     padding-left: 1rem;
     padding-right: 10rem;
