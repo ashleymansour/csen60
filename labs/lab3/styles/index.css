@@ -1,0 +1,98 @@
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body>*{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 50%;
+    flex-flow: column;
+}
+
+aside{
+    display: flex;
+    float: left;
+    max-width: 35%;
+    height: 100vh;
+    background-color: var(--accent-background);
+}
+
+
+figcaption ul{
+    display: flex;
+    justify-content: space-around;
+    color:var(--accent-background)
+}
+
+.profile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 15rem; 
+    height: 15rem; 
+}
+
+.logo{
+    display: block;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+}
+
+figure h1{
+    text-align: center;
+}
+
+figure p{
+    text-align: center;
+}
+
+article {
+    padding-left: 80px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+article p{
+    padding-left: 1rem;
+    padding-right: 10rem;
+    line-height: 1rem;
+}
+
+article header{
+    padding-right: 40rem;
+    padding-left: 1rem;
+}
+
+
+article nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30rem;
+}
+
+.header{
+    text-align: left;
+}
+
+article nav{
+    background-color: white;
+}
+
+time{
+    color: var(--darkest-gray);
+}
+
+.primary{
+    color: var(--accent-text);
+}
+.secondary{
+    color: var(--darkest-gray);
+}
