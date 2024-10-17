@@ -1,11 +1,7 @@
 
-body {
-    padding: 20px;
-}
 
 body nav ul{
     display: flex;
-    justify-content: end;
     text-decoration: none;
 }
 
