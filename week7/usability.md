@@ -1,0 +1,88 @@
+# UX/UI Design Lecture 
+
+## Notes
+- Usability= measure of how effectively a person can: 
+    -  navigate an interface, 
+    -  find information, 
+    -  achieve specific goals
+- studying and improving usability is part of Human-Computer Interaction 
+- Aesthetic design trends move fast, usability remains
+    - UX: User Experience
+    - UI: User Interface
+- common web usability problems
+    - long text ( cant be read quickly)
+    - cluttered/ poor layout
+    - horizontal scrolling= bad
+    - assumptions about user's screen size
+    - poorly chosen colors
+    - poor or missing navigation controls
+- content usability problems
+    - most important content isn't on the first page
+    - nondescript headings
+    - too many ads( or things that appear to be ads)
+    - important site content in non-HTML format
+        - text screenshots
+        - PDFs instead of webpages
+    - isnt designed to be easily indexed by search engines
+- MORE problems:
+    - users do not read (see aside)
+    - anchor text that doesn't describe destination
+    - visited links dont appear in different color
+        - unvisited(blue)
+        - visited(purple)
+- design principles
+    - place name and logo on every page and make the logo a link to the home page
+        - navbar is a great example
+- Jakob's Law of the Web User Experience
+    - users spend most time on other sites, so thats where they form their expectations for how a webpage should work 
+    - if most bg websites do something in a certain way, then follow along
+        - users will expect things to work the same on ur site
+        - larger sites oftern perform extensive UI research
+    - test your design with real users as a reality check. people do things in odd and unexpected ways, so even the most carefully 
+- most common site structure
+    - deep/shallow
+    - represented by folders in your project
+    - home page is (/)
+    - Tips:
+        - 3 click rule: generally dont want to be more than 3 clicks away from the content you want 
+    - heirarchical 
+- responsive design
+    - webside should accomodate user's screen size
+    - accomplished with Media Query in CSS
+    - view screen sizes in devtools
+    - should test at various screen resolutions 
+- browser compatibility
+    - webpages do not look the same in all major browsers
+        - test your site across various browsers: chrome, firefox, safari
+        - solution: custom styles
+- search engine optomization ( SEO)
+    - how to get your website to show up at the top of google search results
+        - pay for it(ads)
+        - incorporate good website design and usability principles
+    - HTML
+        - semantic html
+        - only one h1 per page
+        - header, main, footer
+        - metadata ( meta tags on html page) 
+- nielsen heuristics
+    - heuristic= a design principle
+    - H1: visibility of system status
+    - H2: match between sustem and real world
+    - H3: user control and freedom
+    - H4: consistency and standards
+    - H5: error prevention
+    - H6: recognition rather than recall
+    - H7:
+    
+
+
+## Exercise
+- 5-10 web design flaws 
+    - cluttered layout
+    - not clear on what product yo are buying
+    - long text (can't be read quickly)
+    - poor layout( footer isn't centered)
+    - visited links dont appear in different color
+    - no padding(spacing ugly)
+    - nonexistent navigation
+    - 
