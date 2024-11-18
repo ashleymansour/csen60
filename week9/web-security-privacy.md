@@ -1,0 +1,80 @@
+# Web Security and Privacy
+
+## Security
+-  potential security oversights
+    - no user authentication
+    - allowing weak authenticatino
+    - not sanitizing form entries and requests
+    - not encrypting sensitive communications
+    - sessions that don't time out
+    - out of date(un-patched) software
+        - new vulnerabilities discovered all the time
+    - bugs that expose user data 
+- cross site scripting 
+    - type of attack to be on your website
+    - attacker inserts abitrary html on your webpage
+    - they can steal user info and change content of page
+    - if html includes script tags?
+        - replace page with a new one
+            - fake instance of a page to get passwords, accounts
+        - pass information from the page to foreign page
+            - cookies, passwords, credit card numbers, session Ids
+        - download user's cookies (passowrds) for other sites
+    - how?
+        - attacker provides a link but attatches script in url 
+    - mitigation
+        - dont allow HTML to be inserted
+            - backend libraries to strip out HTML tags
+        - dont allow malicious HTML to be inserted
+            - backend libraries to sanitize HTML
+        - similar techniques used to protect againsl SQL injection 
+    - Distributed Denial of Service
+        - DDoS
+        - Overwhelm a server with malicious requests to block regular users 
+        - attacker uses a number of controlled machines, often compromised
+            - hard to spot
+    - DDos Mitigation
+        - rate limiting
+            - limit volume of request from a user
+        - throw out excess traffic at random
+            - some will be malicious, some will be legitimate
+        - distribute traffic across network
+            - by distributing load, can accomodate huge volume 
+        - for test- what it is, how it happens, how to solve, dont need to explain exactly how it works
+    - Network Security
+        - Need to send request: GET/POST
+        - Need to send responses: HTML documents
+        - Network channels aren't necessarily secure
+            - to solve: 
+                - encryption function
+                - f(x) = Y easy to compute
+                - encryption
+                    - ensures privacy within an organization and on the internet
+                    - the conversation of data into an unreadable form, called ciphertext
+                - decryption
+    - Encryption types
+        - 2 types: symmetric key, asymmetric key
+            - both used to connect to websites
+    - browser-server communication
+        - can use encrypted communication in a web app
+            - HTTPS represents an encrypted (secure) connection
+        - HTTPS is secure HTTP
+            - data passed back and forth is encrypted
+            - browser and server agree on a key
+            - encryption is then done based on this key
+            - this is handled by the secure sockets layer (SSL)
+        - HTTPS Usage
+            - you should always be using https is you are sending confidential information
+
+## Privacy
+- data collection= form entry, mobile OS-provided, cookies, behavior logging
+- Cookies
+    - a name/value pair created by a website to store information on your computer 
+    - why user want cookies= user authentication, site pref, contents of shopping cart
+- Privacy Policy
+    - statement saying what the web site does with any information it collects
+    - generally considered legally binding
+        - must obey the laws of the land
+        - different lands have different laws
+    - written in dense legal language
+    - users may or may not pay attention 
