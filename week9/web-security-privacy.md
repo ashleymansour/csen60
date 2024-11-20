@@ -78,3 +78,93 @@
         - different lands have different laws
     - written in dense legal language
     - users may or may not pay attention 
+
+- Encryption types
+    - secure socket layer(SSL)
+        - a protocol that allows data to be privately exchanged over public networks
+        - developed by netscape
+        - Digital Certificate
+            - a form of an asymmetric key
+            - also contains information about the certificate, the holder of the issue...
+            - the contents of a server's digital certificate include:
+                - the public key
+                - effective date of the certificate
+                - expiration of the certificate
+# web privacy and data collection
+    - Data collection: form/user entry
+            - social networks
+                - share information with others
+                - connect with friends
+                - attract potential employers
+            - online shopping
+                - credit card for payment
+                - home address for shipping
+            - online finances
+                - banking 
+                - investments
+                - tax
+        - mobile OS-provided
+            - contacts
+                - find your friends on __
+                - instant, massive social graph
+            - photos
+                - may include metadata
+            - location
+                - find __ near you
+        - behavior logging
+            - any action a user takes on a webpage can be logged
+            - html event listeners
+                - clicks
+                - hovers
+            - time between actions
+                - how long you spend looking at a post
+                - did you skip an ad? what point in the ad? 
+        - data applications: ad tracking
+            - how are all these products free
+                - facebook/ twitter/ linkedin
+                - google
+                -youtube/ soundcloud
+            - goal: convert an ad seen on-screen to some action 
+            - the better targeted the ad, the better chance of a conversation 
+        - data applications: search
+            - improve results
+            - predictive suggestions
+            - page rank
+            - natural language processing
+        - data applications: recommendation
+            - based on ____ you liked"
+        - drive a metric
+            - optimize a webpage's behavior for something that can be quantitavely measured
+            - iterative UI improvements
+        - lots of sensitive information
+            - personally identifiable information
+                - name, address, phone, email
+                - demographics: age, gender, race
+            - financial information
+                - credit cards
+                - bank accounts
+            - legally sensitive
+                - health information(HIPPA)
+                - student information(FERPA)
+                - information from children (COPPA)
+## Privacy Policy
+- statement saying what the web site does with any information it collects
+- users may or may not pay attention
+### the role of a privacy policy
+- delineate what types of information are collected
+- specify what information is needed
+
+### developer- legal responsibility
+- privacy has lelgal implications
+- developer is responsible for breaches of policy
+
+### GDPR
+- general data protection regulation
+- protects citizens of the european union
+- users must provide consent
+
+### CCPA
+- California Consumer Privacy Act
+    - any service with CA users must conply
+- similar to, less strict than GDPR
+    
