@@ -27,3 +27,28 @@
 - functionality: makes a post 
 - challenges: creating html elements in javascript, solutions include using innerHtml
 - key learnings: use google, console.log to see if code is executed
+
+## Nike by Jason and Kyle
+- web technologies used: tailwind css, react, nextJs
+- roles/duties: kyle did home page and jason did the cart page and the product page
+- best practices: using tailwind extension, stack overflow, chatgpt, google
+- challenges: using tailwind css for the first time 
+- neon database and vercel server deployment
+- key learnings: web technologies are constantly evolving, organization is key 
+
+## Reddit Page 
+- best practices implemented: heirarchy layout with semantic elements( articles, h=nav, headers, aside)
+- comment notes 
+- use separate branches and inspected reddit's website
+- challenges: overusing class and id , setting up the API
+- solutions: stack overflow, chat GPT, w3 schools, youtube
+- key learnings: collaboration between CSS, JS, and HTML, Navigating through github, terminal
+
+## Smolarski's Math 13 Webpage Replica
+- used html css and javascript
+- website was mainly html, very messy
+- they changed it by adding popups, advanced accordion, search feature 
+- practice from class lessons applied: attention to margin use, nielsen heuristics, organizing pull requests
+- the search feature was very accurate, but seemed complicated
+- challenges faced: merge conflicts- they solved by trashing some files and restarting
+- key learnings: working on GitHub in a team, integrating JS into design, ensuring file links are global  
