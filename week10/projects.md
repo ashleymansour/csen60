@@ -52,3 +52,22 @@
 - the search feature was very accurate, but seemed complicated
 - challenges faced: merge conflicts- they solved by trashing some files and restarting
 - key learnings: working on GitHub in a team, integrating JS into design, ensuring file links are global  
+
+## Bluey Presentation by ava dani nishi
+- used html, css, and js
+- pages: home page, characters page, socks page, quiz 
+- functionalities: hover, carousel
+- best practices: chatgpt, youtube, google, mozilla docs, w3schools
+- challenges: merge requests, content for the quiz page
+- key learnings: hands on experience with writing html 
+
+## Yue, avery bella Pinterest replication
+- technologies: html, css, js
+- pages implemented: all pins, profile page, pin details
+- profile page: displays profile, username and id, saved folder
+- saved pictures are displayed at the bottom
+- functionalities: pins work, hover
+- all pins page which lead to the pin details page
+- practices used: html structure/ heirarchy
+- cookies local storage
+- challenges and solutions: overestimation, cookie and server, time management and communication 
